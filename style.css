@@ -1,0 +1,73 @@
+.pic-left {
+    width: 290px;
+    height: 175px;
+    color: #111;
+    text-align: center;
+    float: left;
+    shape-outside: polygon();
+    padding: 5px 10px 10px 10px;
+    background-color: rgb(112, 154, 216);
+    background-clip: content-box;
+}
+
+.oval-left {
+    width: 400px;
+    height: 250px;
+    color: #111;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 90px;
+    float: left;
+    shape-outside: ellipse();
+    padding: 10px;
+    background-color: rgb(112, 154, 216);
+    background-clip: content-box;
+}
+
+.oval-right {
+    width: 400px;
+    height: 250px;
+    color: #111;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 90px;
+    float: right;
+    shape-outside: ellipse();
+    padding: 10px;
+    background-color: rgb(112, 154, 216);
+    background-clip: content-box;
+}
+
+span {
+    padding-top: 20px;
+    display: inline-block;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 3em;
+    font-style: italic;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    color: red;
+}
+
+.section-title-green {
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    color: green;
+}
+
+.section-text {
+    text-align: left;
+    color: blue;
+}
